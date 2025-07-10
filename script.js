@@ -13,6 +13,7 @@ const gencompchoice = () => {
 const drawgame = () => {
     console.log("it was a draw");
     msg.innerText= "it was a draw";
+    msg.style.backgroundColor="black";
    
 }
 const showinner = (userwin,userChoice,compChoice) => {
